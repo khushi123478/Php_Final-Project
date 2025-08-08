@@ -1,0 +1,59 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full height layout */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout wrapper */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.login-form {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.login-form input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Sticky footer */
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
